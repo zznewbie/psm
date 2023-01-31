@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href=""C:\Users\82106\Desktop\favicon.ico"">
+  <title>ssumi_ni 2023버킷리스트</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+
+    * {
+      font-family: 'Hahmlet', serif;
+    }
+
+    .title {
+      color: white;
+      background-color: tomato;
+      font-size: 24px;
+      padding: 4px 14px;
+      border-radius: 8px;
+    }
+
+    .bg {
+      width: 360px;
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+    }
+
+    .msg {
+      font-weight: bold;
+    }
+
+    .bucket {
+      width: 160px;
+      height: 160px;
+    }
+
+    .img1 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .img2 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .row {}
+  </style>
+  <link rel="stylesheet" type="text/css"
+    href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+  <h1 class="title-t4">ssumi_ni 2023버킷리스트</h1>
+  <p class="msg">달성 시 도장찍어줌</p>
+  <div class="row flex-row wrap">
+    <div class="bucket img2 center">-5kg 감량</div>
+    <div class="bucket img1 center">꾸왁 도전</div>
+    <div class="bucket img2 center">GA 수료</div>
+    <div class="bucket img1 center">돈 모으기</div>
+    <div class="bucket img2 center">먹클립 일 방문자<br>500명 이상</div>
+    <div class="bucket img1 center">혼자 여행 가보기</div>
+    <div class="bucket img2 center">자잘하게 음식 해먹기<br>예 : 크리스피 통삼겹</div>
+    <div class="bucket img2 center">생각나면 추가</div>
+    <div class="bucket img2 center">생각나면 추가</div>
+    <div class="bucket img2 center">생각나면 추가</div>
+  </div>
+
+</body>
+
+</html>
